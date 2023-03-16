@@ -1,2 +1,1 @@
-# Regis-Test-AR1
-Combined into multi-UX.
+# Regis Test AR2
