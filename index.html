@@ -402,7 +402,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Sync("#model-viewer", "#sound");
         });
       </script>
-   
+    
+ <!-- 💁 Include both scripts below to support all browsers! -->
+    <!-- Import the component -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+ 
    <div style="text-align:center">   
    <!--<button onclick="location.href='https://avertek.github.io/Regis-Test-Head2/'" type="button" slot="" 
                     style="z-index: 9; background-color: #FFFFFF; border-radius: 8px; border: 1 px solid white; position: static; height: 35px; width: auto;
